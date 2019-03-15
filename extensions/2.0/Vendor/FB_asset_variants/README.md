@@ -49,7 +49,7 @@ The inline descriptions are optional, and meant only as human-readable fallback 
 
 ## Switching Materials
 
-When variants differ in terms of shading properties, the most direct approach is for each `mesh primitive` to have switchable `material` references:
+When variants differ in terms of shading properties, the most direct approach is for each `mesh primitive` to have switchable `material` references.  The existing `material` reference simply becomes the initial material applied to the primitive.
 
 ```javascript
 "meshes": [
